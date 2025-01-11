@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Schedule</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Daily Schedule</h1>
+        
+        <form id="scheduleForm">
+            <label for="event">Event:</label>
+            <input type="text" id="event" placeholder="Enter your event">
+            <label for="time">Time:</label>
+            <input type="time" id="time">
+            <button type="submit">Add Event</button>
+        </form>
+
+        <h2>Today's Schedule</h2>
+        <ul id="scheduleList">
+            <!-- Scheduled events will appear here -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
